@@ -22,10 +22,6 @@ public class OrderController {
     @GetMapping("{orderId}")
     public Order queryOrderByUserId(@PathVariable("orderId") Long orderId) {
         // 根据id查询订单并返回
-        Order order = orderService.queryOrderById(orderId);
-        String url = "http://localhost:8081/user/" + order.getUserId();
-        User user = restTemplate.getForObject(url, User.class);
-        order.setUser(user);
-        return order;
+        return orderService.queryOrderById(orderId);
     }
 }

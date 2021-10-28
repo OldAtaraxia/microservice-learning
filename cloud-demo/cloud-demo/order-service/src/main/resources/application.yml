@@ -12,6 +12,8 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+        cluster-name: SH
+        ephemeral: false
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -21,6 +23,10 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+
 #eureka:
 #  client:
 #    service-url: # 地址信息, eureka也是一个微服务,

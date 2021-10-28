@@ -12,6 +12,8 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+        cluster-name: SH
+        namespace: 9da96d59-c714-4fed-87be-075eb02d86c1
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:

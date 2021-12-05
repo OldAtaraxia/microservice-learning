@@ -1,4 +1,5 @@
 cn\itcast\order\mapper\OrderMapper.class
+cn\itcast\order\clients\UserClient.class
 cn\itcast\order\pojo\User.class
 cn\itcast\order\service\OrderService.class
 cn\itcast\order\web\OrderController.class

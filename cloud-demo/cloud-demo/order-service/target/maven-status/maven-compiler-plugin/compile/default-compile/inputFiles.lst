@@ -3,4 +3,5 @@ E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\c
 E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\cn\itcast\order\OrderApplication.java
 E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\cn\itcast\order\mapper\OrderMapper.java
 E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\cn\itcast\order\service\OrderService.java
+E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\cn\itcast\order\clients\UserClient.java
 E:\dev\microservice-learning\cloud-demo\cloud-demo\order-service\src\main\java\cn\itcast\order\web\OrderController.java

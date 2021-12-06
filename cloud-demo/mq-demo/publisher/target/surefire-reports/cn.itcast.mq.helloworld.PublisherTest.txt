@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: cn.itcast.mq.helloworld.PublisherTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.156 s <<< FAILURE! - in cn.itcast.mq.helloworld.PublisherTest
+testSendMessage  Time elapsed: 21.153 s  <<< ERROR!
+java.net.ConnectException: Connection timed out: no further information
+	at cn.itcast.mq.helloworld.PublisherTest.testSendMessage(PublisherTest.java:23)
+

@@ -14,9 +14,12 @@ public class SpringAmqpTest {
     private RabbitTemplate rabbitTemplate;
 
     @Test
-    public void testSend() {
+    public void testSend() throws InterruptedException {
         String queueName = "hello";
-        String message = "hello amqp";
-        rabbitTemplate.convertAndSend(queueName, message);
+        String message = "message ";
+        for(int i = 1; i <= 50; i++) {
+            rabbitTemplate.convertAndSend(queueName, message + i);
+            Thread.sleep(20);
+        }
     }
 }
